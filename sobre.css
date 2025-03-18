@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', Helvetica, sans-serif;
+}
+
+header {
+    background-color: burlywood;
+    color: beige;
+    padding: 16px 8px;
+}
+
+
+body {
+    width: 100%;
+}
+
+
+h1, 
+h2,
+h3 {
+    font-family: 'Concert One', Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: beige;
+}
+
+p {
+    font-family: 'Dosis', Helvetica, sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    font-size: 18px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: beige;
+}
+
+
+#about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 16px;
+}
+
+.about-description {
+    width: 600px;
+}
+
+#about h2 ,
+#about p ,
+.brand-list img {
+    margin-left: 8px;
+    margin-bottom: 6px;
+    text-align: justify;
+}
+
+.fachada {
+    width: 600px;
+}
+
+.brand-list img {
+    width: 40px;
+}
+
+#info {
+    padding: 16px;
+    background: linear-gradient(to top, burlywood, beige);
+}
+
+#info .container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 100%;
+}
+
+.links {
+    background-color: beige;
+    width: 180px;
+    margin-left: 32px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.links h2 {
+    padding-bottom: 8px;
+}
+
+.links img {
+    width: 16px;
+    padding-right: 3px;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+.about p,
+.onde-encontrar p {
+    width: 400px;
+}
+
+#info h2 {
+    color: rgb(219, 171, 108);
+    padding-bottom: 6px;
+}
+
+#info p {
+    margin: 3px 3px;
+}
+
+footer {
+    background-color: burlywood;
+    color: beige;
+    padding: 8px;
+}
+

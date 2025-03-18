@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', Helvetica, sans-serif;
+}
+
+h1, 
+h2,
+h3,
+footer p {
+    font-family: 'Concert One', Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background-color: burlywood;
+    padding: 16px 8px;
+    margin-bottom: 6px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: beige;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+header nav img{
+    height: 20px;
+}
+
+footer {
+    padding: 16px;
+    background-color: burlywood;
+}
+
+footer p {
+    color: beige;
+}
+
+#menu .container h3{
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+#menu .container li a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.menu-tot {
+    display: flex;
+}
+
+.menu-list {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;  
+    margin: 20px;
+    width: 300px;
+    max-height: 600px;
+    transition: all 0.3s ease-in-out;
+    background-color: burlywood;
+    opacity: 95%;
+}
+
+.menu-list:hover {
+    transform: translateY(-5px);
+
+}
+
+.menu-list img {
+    width: 260px;
+    height: 260px;
+}
+
+.menu-list p {
+    text-align: justify;
+    margin-top: 6px;
+}
+
+.valor {
+    padding-top: 8px;
+    font-weight: 300;
+}
+
+.chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chart p {
+    color: rgb(102, 102, 102);
+}
+
+.btn-chart-plus,
+.btn-chart-minun {
+    width: 16px;
+    border-radius: 25px;
+}
+
+#menu {
+    background-image: url(./images/background.png);
+    background-repeat: repeat;
+    background-size: 676px;
+}
+
+#menu .container > h2 {
+    color: beige;
+    background-color: rgb(221, 173, 111);    
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    box-sizing: border-box;
+    padding: 8px;
+    width: 130px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 18px;
+}
+
+.contact-icon{
+    width: 45px;
+    position: relative;
+    left: 17%;
+    top: 17%;
+}
+
+.card {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: burlywood;
+    left: 1270px;
+    top: 560px;
+    border-radius: 40px;
+}
+
+.card li {
+    text-decoration: none;
+}
+
+.contact-icon-chart {
+    height: 15px;
+}
+
+.container h3 {
+    background-color: beige;
+    width: 130px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+}
